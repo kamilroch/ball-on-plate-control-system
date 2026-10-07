@@ -62,3 +62,17 @@ The solution was tested both in simulation and on a physical prototype.
 - LQR control
 - Model-based control
 - Base tilt compensation
+
+  ## Project structure
+
+```text
+src/
+├── main.py        # Main application loop
+├── control.py     # Mathematical model and LQR control
+├── vision.py      # Ball detection using computer vision
+├── imu.py         # MPU6050 reading and tilt estimation
+├── hardware.py    # Servo and PCA9685 control
+├── utils.py       # Helper functions
+└── __init__.py
+
+requirements.txt   # Python dependencies
