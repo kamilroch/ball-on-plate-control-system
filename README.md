@@ -4,7 +4,7 @@ Ball-on-Plate stabilization system with model-based control and base tilt compen
 
 ## Project overview
 
-Master's thesis project focused on stabilizing a ball on a two-axis platform using computer vision and LQR control.
+Master's thesis project focused on stabilizing a ball on a two-axis platform using a mathematical model, computer vision and LQR control.
 
 The system uses an IMU sensor to measure platform orientation and compensates for base tilts affecting the ball motion.
 
@@ -12,19 +12,45 @@ The solution was tested both in simulation and on a physical prototype.
 
 ## Key features
 
+- Mathematical modeling of the Ball-on-Plate system
 - Computer vision ball tracking
-- LQR control
+- LQR-based position control
 - IMU-based tilt measurement
 - Base tilt compensation
 - Two-axis servo control
 - Simulation and real-world testing
 
-## Technologies
+## Hardware
+
+### Control system
+
+- Raspberry Pi 4B
+- PCA9685 servo driver
+- Two MG996R servo motors
+- 5 V / 10 A power supply
+
+### Measurement system
+
+- Raspberry Pi Camera Module 2
+- MPU6050 IMU
+
+### Mechanical components
+
+- Ball joints
+- Linkage rods
+- Servo mounting brackets
+- Central ball joint
+
+## Software & libraries
 
 - Python
-- Raspberry Pi 4
 - OpenCV
 - Picamera2
-- MPU6050 IMU
-- PCA9685 servo driver
-- Servo motors
+- NumPy
+- Adafruit ServoKit
+
+## Control methods
+
+- LQR control
+- Model-based control
+- Base tilt compensation
