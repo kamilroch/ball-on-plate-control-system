@@ -16,7 +16,7 @@ The solution was tested both in simulation and on a physical prototype.
 
 ![Ball-on-Plate demo](images/ball_on_plate_demo.gif)
 
-### Additional view
+### Alternative stabilization view
 
 ![Ball-on-Plate demo 2](images/ball_on_plate_demo_2.gif)
 
