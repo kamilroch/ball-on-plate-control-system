@@ -63,7 +63,7 @@ The solution was tested both in simulation and on a physical prototype.
 - Model-based control
 - Base tilt compensation
 
-  ## Project structure
+## Project structure
 
 ```text
 src/
