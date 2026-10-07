@@ -12,13 +12,13 @@ The solution was tested both in simulation and on a physical prototype.
 
 ## Demo
 
+### Stabilization demo
+
 ![Ball-on-Plate demo](images/ball_on_plate_demo.gif)
 
-## Prototype
+### Additional view
 
-![Ball-on-Plate front view](images/ball_on_plate_front.png)
-
-![Ball-on-Plate perspective view](images/ball_on_plate_perspective.png)
+![Ball-on-Plate demo 2](images/ball_on_plate_demo_2.gif)
 
 ## Key features
 
