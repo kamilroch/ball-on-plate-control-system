@@ -10,6 +10,10 @@ The system uses an IMU sensor to measure platform orientation and compensates fo
 
 The solution was tested both in simulation and on a physical prototype.
 
+## Demo
+
+![Ball-on-Plate demo](images/ball_on_plate_demo.gif)
+
 ## Prototype
 
 ![Ball-on-Plate front view](images/ball_on_plate_front.png)
