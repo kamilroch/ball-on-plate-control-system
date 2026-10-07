@@ -53,7 +53,9 @@ The solution was tested both in simulation and on a physical prototype.
 - OpenCV
 - Picamera2
 - NumPy
+- SciPy
 - Adafruit ServoKit
+- SMBus2
 
 ## Control methods
 
