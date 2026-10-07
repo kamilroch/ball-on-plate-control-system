@@ -70,7 +70,7 @@ src/
 ├── main.py        # Main application loop
 ├── control.py     # Mathematical model and LQR control
 ├── vision.py      # Ball detection using computer vision
-├── imu.py         # MPU6050 reading and tilt estimation
+├── imu.py         # MPU6050 reading for base tilt compensation
 ├── hardware.py    # Servo and PCA9685 control
 ├── utils.py       # Helper functions
 └── __init__.py
