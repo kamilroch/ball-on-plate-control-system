@@ -1,0 +1,6 @@
+numpy
+scipy
+opencv-python
+picamera2
+adafruit-circuitpython-servokit
+smbus2
