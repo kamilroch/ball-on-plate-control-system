@@ -80,3 +80,4 @@ src/
 └── __init__.py
 
 requirements.txt   # Python dependencies
+RUN.md             # Installation, hardware setup and run instructions
